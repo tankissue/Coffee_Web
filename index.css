@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+
+
+body {
+    margin: 0px;
+}
+
+.logo {
+    padding: 0px;
+    margin: 0px;
+    color: cornsilk;
+    text-shadow: rgb(242, 240, 231) 1px 0 10px;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+
+
+
+.Nav {
+    background-color: rgb(87, 44, 13);
+    text-align: center;
+    height: 60px;
+
+}
+
+
+.Items {
+    background-color: antiquewhite;
+    grid-area: Items;
+    width: 550px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+
+
+}
+
+.Text-Items {
+    color: brown;
+    font-family: 'Alkatra', cursive;
+    padding-left: 15px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+
+.Name {
+    background-color: antiquewhite;
+    grid-area: Name;
+    width: 570px;
+    height: 130px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+
+
+
+.Text-Name {
+    color: brown;
+    font-family: 'Alkatra', cursive;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.Payment {
+    background-color: antiquewhite;
+    grid-area: Payment;
+    width: 570px;
+    height: 160px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px rgb(124, 121, 121);
+}
+
+.Text-Payment {
+    color: brown;
+    font-family: 'Alkatra', cursive;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+
+.three-div-handler {
+    display: grid;
+    grid-template-areas:
+        "Items . Name"
+        "Items . Payment"
+    ;
+    margin-top: 50px;
+
+}
+
+.Item-ul{
+    display: flex;
+    list-style-type: none;
+}
+.Item-li{
+    color: black;
+    list-style-type: none;
+}
+
+.Item-name{
+    margin-left: 50px;
+    margin-top: -25px;
+}
+
+.Item-price{
+    margin-left: 350px;
+    margin-top: -25px;
+}
+
+.nested-ul{
+    list-style-type: none;
+}
+
+
+.Item-topping{
+    font-size: small;
+    color: rgb(142, 50, 50);
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.line1{
+    width:530px;
+    height:1px;
+    margin-left: 10px;
+    background-color: rgb(172, 81, 81);
+}
+.line2{
+    width:530px;
+    height:1px;
+    margin-left: 10px;
+    margin-top: -10px;
+    
+    background-color: rgb(172, 81, 81);
+}
+
+
+.order-name-div{
+   margin-top: 5px;
+   border-radius: inherit;
+
+}
+
+
+.order-name-tag{
+    
+    border-radius: 20px;
+    width: 500px;
+    height: 20px;
+    margin-left: 20px;
+    border-color: rgb(189, 116, 116); 
+}
+
+.order-name-text-style
+{
+ height: 40px; 
+ color: rgb(148, 64, 64);
+ font-family: 'Alkatra', cursive;
+}
+
+.placeholder{
+    margin-top: -19px;
+    padding-left: 10px;
+    font-family: 'Alkatra', normal;
+
+}
+
+
+.order-name-tag1{
+    
+    border-radius: 20px;
+    width: 300px;
+    height: 5px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top:0px ;
+    border-color: rgb(189, 116, 116); 
+}
+.order-name-tag2{
+    
+    border-radius: 20px;
+    width: 250px;
+    height: 5px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top:0px ;
+    border-color: rgb(189, 116, 116); 
+}
+
+
+.subtotal{
+    grid-area: subtotal;
+    padding: 10px;
+}
+.subtotal-dollar{
+    grid-area: subtotal-dollar;
+    padding: 10px;
+}
+.tax{
+    grid-area: tax;
+    padding: 10px;
+}
+.tax-dollar{
+    grid-area: tax-dollar;
+    padding: 10px;
+}
+.total{
+    grid-area: total;
+    padding: 10px;
+
+}
+.total-dollar{
+    grid-area: total-dollar;
+    padding: 10px;
+}
+.place-order{
+    grid-area: place-order;
+}
+
+.total-cal{
+    display: grid;
+    grid-template-areas: 
+    "subtotal  subtotal-dollar"
+    "tax        tax-dollar"
+    "total      total-dollar";
+    
+    margin-top: 100px;
+    margin-left: 450px;
+    font-size: larger;
+}
+
+
+.place-order{
+    background-color:rgb(234, 187, 116); 
+    width: 1300px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 30px;
+    padding-top: 10px;
+    
+}
+
+.place-order-text{
+   margin-left: 600px;
+   margin-top: 10px;
+   font-size: large;
+    color: rgb(81, 78, 73);
+}
